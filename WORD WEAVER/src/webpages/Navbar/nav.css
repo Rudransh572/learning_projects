@@ -1,0 +1,123 @@
+*{
+   box-sizing: border-box;
+
+}
+.link{
+display: flex;
+align-items: center;
+}
+
+body{
+    margin: 0px;
+     padding: 0px;
+}
+.nav{
+    margin-top: 0;
+    height: 10vh;
+    width: 98.70vw;
+    background-color:black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.hyperlink{
+           display: flex;
+           margin-left: 10px;
+           width: 130px;
+           
+}
+.hyperlink>a{
+    font-size: larger;
+    text-decoration: none;
+    margin-left: 39px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.buttons{
+        display: flex;
+        justify-content: space-around;
+
+        
+}
+
+#menu{
+    height: 25px;
+    width: 25px;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+#buttons1{
+          border: 2px solid wheat;
+          margin-right: 10px;
+          border-radius: 15px;
+          height: 35px;
+          font-weight: bolder;
+          background-color: black;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          padding: 5px;
+          
+          color: whitesmoke;
+}
+#buttons1:active{
+    transform: scale(0.9);
+}
+#buttons2{
+    border: 2px solid wheat;
+    margin-right: 10px;
+    border-radius: 15px;
+    height: 35px;
+    font-weight: bolder;
+    background-color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 5px;
+    
+    color: whitesmoke;
+}
+#buttons2:active{
+    transform: scale(0.9);
+}
+#buttons1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#buttons2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buttons{
+    margin-right: 12px;
+}
+.search:hover{
+transform: scale(1.1);
+border: 2px black solid;
+}
+.sicon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .sicon>input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+.sicon>i{
+    color: black;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
